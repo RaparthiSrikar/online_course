@@ -1,0 +1,68 @@
+.reports-container {
+  max-width: 80rem; /* max-w-5xl */
+  margin: 2rem auto 0 auto; /* mt-8 + mx-auto */
+  padding: 0 1rem;
+}
+
+.reports-title {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 700; /* font-bold */
+  margin-bottom: 1rem; /* mb-4 */
+}
+
+.reports-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem; /* gap-6 */
+}
+
+@media (min-width: 768px) {
+  .reports-grid {
+    grid-template-columns: repeat(2, 1fr); /* md:grid-cols-2 */
+  }
+}
+
+.reports-card {
+  background: #ffffff; /* bg-white */
+  padding: 1rem; /* p-4 */
+  border-radius: 0.5rem; /* rounded */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow */
+}
+
+.reports-card-wide {
+  grid-column: span 1;
+}
+
+@media (min-width: 768px) {
+  .reports-card-wide {
+    grid-column: span 2; /* md:col-span-2 */
+  }
+}
+
+.reports-card-title {
+  font-weight: 600; /* font-semibold */
+  margin-bottom: 0.75rem; /* mb-3 */
+}
+
+.reports-progress-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem; /* gap-4 */
+}
+
+@media (min-width: 768px) {
+  .reports-progress-grid {
+    grid-template-columns: repeat(2, 1fr); /* md:grid-cols-2 */
+  }
+}
+
+.reports-progress-item {
+  padding: 0.75rem; /* p-3 */
+  border: 1px solid #e5e7eb; /* border */
+  border-radius: 0.5rem; /* rounded */
+}
+
+.reports-progress-item .font-medium {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,15 @@
+.loader {
+  display: inline-block;
+  width: 1.5rem; /* 6 * 0.25rem */
+  height: 1.5rem;
+  border: 4px dashed #2563eb; /* blue-600 */
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

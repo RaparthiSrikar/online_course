@@ -1,0 +1,33 @@
+.mycourses-container {
+  max-width: 80rem; /* max-w-5xl */
+  margin: 2rem auto 0 auto; /* mt-8 + mx-auto */
+  padding: 0 1rem;
+}
+
+.mycourses-title {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 700; /* font-bold */
+}
+
+.mycourses-grid {
+  display: grid;
+  gap: 1rem; /* gap-4 */
+  margin-top: 1rem; /* mt-4 */
+}
+
+.mycourses-item {
+  background: #ffffff; /* bg-white */
+  padding: 1rem; /* p-4 */
+  border-radius: 0.5rem; /* rounded */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow */
+}
+
+.mycourses-item .course-title {
+  font-weight: 600; /* font-semibold */
+}
+
+.mycourses-item .course-progress {
+  font-size: 0.875rem; /* text-sm */
+  color: #4b5563; /* gray-600 */
+  margin-top: 0.25rem;
+}

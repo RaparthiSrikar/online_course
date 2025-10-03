@@ -1,0 +1,40 @@
+.course-card {
+  background: #ffffff; /* bg-white */
+  border-radius: 0.5rem; /* rounded */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* shadow */
+  padding: 1rem; /* p-4 */
+  display: flex;
+  flex-direction: column;
+}
+
+.course-card-title {
+  font-weight: 600; /* font-semibold */
+  font-size: 1.125rem; /* text-lg */
+}
+
+.course-card-category {
+  font-size: 0.875rem; /* text-sm */
+  color: #4b5563; /* gray-600 */
+  margin-top: 0.25rem;
+}
+
+.course-card-fee {
+  margin-top: 0.5rem; /* mt-2 */
+  font-size: 1rem;
+  color: #111827;
+}
+
+.course-card-actions {
+  margin-top: 1rem; /* mt-4 */
+  display: flex;
+  gap: 0.5rem; /* gap-2 */
+}
+
+.course-card-actions a {
+  color: #2563eb; /* text-blue-600 */
+  text-decoration: none;
+}
+
+.course-card-actions a:hover {
+  text-decoration: underline;
+}

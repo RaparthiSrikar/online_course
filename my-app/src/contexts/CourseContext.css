@@ -1,0 +1,133 @@
+/* Course list container */
+.courses-container {
+  max-width: 80rem; /* max-w-5xl */
+  margin: 2rem auto; /* mt-8 mx-auto */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media(min-width: 768px) {
+  .courses-container {
+    grid-template-columns: repeat(2, 1fr); /* md:grid-cols-2 */
+  }
+}
+
+/* Course card */
+.course-card {
+  background-color: #ffffff;
+  padding: 1rem; /* p-4 */
+  border-radius: 0.5rem; /* rounded */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.course-card h3 {
+  font-weight: 600; /* font-semibold */
+  font-size: 1.125rem; /* text-lg */
+}
+
+.course-card p {
+  color: #4b5563; /* gray-600 */
+  font-size: 0.875rem; /* text-sm */
+  margin-top: 0.5rem;
+}
+
+.course-card a {
+  color: #2563eb; /* blue-600 */
+  text-decoration: none;
+}
+
+.course-card a:hover {
+  text-decoration: underline;
+}
+
+/* Course management form */
+.course-form {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.course-form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db; /* gray-300 */
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.course-form button {
+  background-color: #2563eb; /* blue-600 */
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.course-form button:hover {
+  background-color: #1e40af; /* darker blue */
+}
+
+/* My Courses cards */
+.my-courses-container {
+  max-width: 80rem;
+  margin: 2rem auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.my-course-card {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.my-course-card .course-title {
+  font-weight: 600;
+}
+
+.my-course-card .course-progress {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+/* Course detail */
+.course-detail-container {
+  max-width: 48rem; /* max-w-3xl */
+  margin: 2rem auto;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.course-detail-container h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.course-detail-container p {
+  margin-top: 0.5rem;
+}
+
+.course-detail-container button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.course-detail-container button:hover {
+  background-color: #1e40af;
+}

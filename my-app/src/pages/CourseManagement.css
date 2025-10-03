@@ -1,0 +1,98 @@
+.course-management-container {
+  max-width: 80rem; /* max-w-5xl */
+  margin: 2rem auto 0 auto; /* mt-8 + mx-auto */
+  padding: 0 1rem;
+}
+
+.course-management-title {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 700; /* font-bold */
+  margin-bottom: 1rem; /* mb-4 */
+}
+
+.course-form {
+  background: #ffffff; /* bg-white */
+  padding: 1rem; /* p-4 */
+  border-radius: 0.5rem; /* rounded */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* shadow */
+  margin-bottom: 1.5rem; /* mb-6 */
+}
+
+.course-form-title {
+  font-weight: 600; /* font-semibold */
+  margin-bottom: 0.5rem; /* mb-2 */
+}
+
+.course-form-input {
+  width: 100%;
+  border: 1px solid #d1d5db; /* border-gray-300 */
+  padding: 0.5rem; /* p-2 */
+  border-radius: 0.25rem; /* rounded */
+  margin-bottom: 0.5rem; /* mb-2 */
+}
+
+.course-form-button {
+  background-color: #2563eb; /* bg-blue-600 */
+  color: #ffffff;
+  padding: 0.5rem 1rem; /* px-4 py-2 */
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+}
+
+.course-form-button:hover {
+  background-color: #1d4ed8;
+}
+
+.course-list {
+  display: grid;
+  gap: 1rem; /* gap-4 */
+}
+
+.course-item {
+  background: #ffffff; /* bg-white */
+  padding: 1rem; /* p-4 */
+  border-radius: 0.5rem; /* rounded */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* shadow */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-item-info .course-title {
+  font-weight: 600; /* font-semibold */
+}
+
+.course-item-info .course-approved {
+  font-size: 0.875rem; /* text-sm */
+  color: #4b5563; /* gray-600 */
+}
+
+.course-item-buttons button {
+  padding: 0.25rem 0.75rem; /* px-3 py-1 */
+  color: #ffffff;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.course-item-buttons .approve-button {
+  background-color: #22c55e; /* bg-green-500 */
+}
+
+.course-item-buttons .approve-button:hover {
+  background-color: #16a34a;
+}
+
+.course-item-buttons .delete-button {
+  background-color: #ef4444; /* bg-red-500 */
+}
+
+.course-item-buttons .delete-button:hover {
+  background-color: #dc2626;
+}
+
+.course-item-buttons {
+  display: flex;
+  gap: 0.5rem; /* gap-2 */
+}
